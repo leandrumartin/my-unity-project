@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 370432a64600c164c9c2584a35cf09b8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Militech
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a2ef0bd47b4b804499abd5732ee080db, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
