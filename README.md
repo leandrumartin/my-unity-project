@@ -1,0 +1,1 @@
+Unity project created while following along with the book [Hands-On Unity 2020 Game Development](https://www.packtpub.com/product/hands-on-unity-2020-game-development/9781838642006) by Nicolas Alejandro Borromeo. 
