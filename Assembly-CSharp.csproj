@@ -63,16 +63,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\ScoreOnDeath.cs" />
+    <Compile Include="Assets\Scripts\WavesGameMode.cs" />
+    <Compile Include="Assets\Scripts\WaveManager.cs" />
+    <Compile Include="Assets\Scripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\ForwardMovement.cs" />
     <Compile Include="Assets\Scripts\Autodestroy.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\Scripts\Life.cs" />
+    <Compile Include="Assets\Scripts\ContactDamager.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\PlayerShooting.cs" />
     <Compile Include="Assets\Scripts\MyFirstScript.cs" />
+    <Compile Include="Assets\Scripts\EnemyManager.cs" />
     <Compile Include="Assets\Scripts\ContactDestroyer.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\WaveSpawner.cs" />
-    <Compile Include="Assets\Scripts\Life.cs" />
-    <Compile Include="Assets\Scripts\ContactDamager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\militech\read_me - Militech.txt" />

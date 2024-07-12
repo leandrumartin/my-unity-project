@@ -10,12 +10,12 @@ public class MyFirstScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        print("test Start");
+        // print("test Start");
     }
 
     // Update is called once per frame
     void Update()
     {
-        print(speed);
+        // print(speed);
     }
 }
