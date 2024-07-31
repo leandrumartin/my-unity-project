@@ -12,7 +12,7 @@ public class ContactDamager : MonoBehaviour
         Life life = other.GetComponent<Life>();
         if (life != null)
         {
-            life.amount -= damage;
+            life.ChangeAmount(0 - damage);
         }
     }
 }
