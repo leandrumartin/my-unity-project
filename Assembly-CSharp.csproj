@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\Life.cs" />
     <Compile Include="Assets\Scripts\ContactDamager.cs" />
     <Compile Include="Assets\Scripts\Pause.cs" />
+    <Compile Include="Assets\Scripts\VelocityAnimator.cs" />
     <Compile Include="Assets\Scripts\WavesUI.cs" />
     <Compile Include="Assets\Scripts\ScoreUI.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
@@ -88,7 +89,7 @@
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\WaveSpawner.cs" />
     <Compile Include="Assets\Scifi-Gun\ReadMe.cs" />
-    <Compile Include="Assets\Scripts\VelocityAnimator.cs" />
+    <Compile Include="Assets\Scripts\Sight.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ManNeko_Assets\Adventurer Blake\Read Me.txt" />
