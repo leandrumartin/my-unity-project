@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\WaveSpawner.cs" />
     <Compile Include="Assets\Scifi-Gun\ReadMe.cs" />
+    <Compile Include="Assets\Scripts\Pool.cs" />
     <None Include="Assets\ManNeko_Assets\Adventurer Blake\Read Me.txt" />
     <None Include="Assets\Fonts\militech\read_me - Militech.txt" />
     <None Include="Assets\Sci-Fi Styled Modular Pack\Readme.txt" />

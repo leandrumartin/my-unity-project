@@ -11,12 +11,13 @@ public class Sight : MonoBehaviour
 
     public Collider detectedObject;
 
+    private static Collider[] colliders = new Collider[100];
     void Update()
     {
-        Collider[] colliders = Physics.OverlapSphere(transform.position, distance, objectsLayers);
+        int detectedAmount = Physics.OverlapSphereNonAlloc(transform.position, distance, colliders, objectsLayers);
 
         detectedObject = null;
-        for (int i = 0; i < colliders.Length; i++)
+        for (int i = 0; i < detectedAmount; i++)
         {
             Collider collider = colliders[i];
             Vector3 directionToCollider = Vector3.Normalize(collider.bounds.center - transform.position); // Here we use collider.bounds.center instead of collider.transform.position to use the object's center instead of its pivot
